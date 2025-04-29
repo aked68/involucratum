@@ -1,0 +1,82 @@
+{
+  "folders": [
+    {
+      "name": "app",
+      "path": ".",
+    },
+    {
+      "name": "backend",
+      "path": "./backend",
+    },
+    {
+      "name": "frontend",
+      "path": "./frontend",
+    },
+  ],
+  "settings": {
+    "prettier.prettierPath": "../frontend/node_modules/prettier",
+    "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+      },
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+      },
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+      },
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+      },
+    },
+    "[html]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "[markdown]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[yaml]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "redhat.vscode-yaml",
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      // Common
+      "editorconfig.editorconfig",
+      "yzhand.markdown-all-in-one",
+      "redhat.vscode-yaml",
+      // TypeScript
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      // Vue
+      "vue.volar",
+      "wejectchan.vue3-snippets-for-vscode",
+      // Python
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "njpwerner.autodocstring",
+      "charliermarsh.ruff",
+    ],
+  },
+}
